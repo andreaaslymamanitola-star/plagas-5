@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Las 4 Plagas de Oruro</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-image:url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size:cover;
+    background-attachment:fixed;
+    color:white;
+    text-align:center;
+}
+
+header{
+    background:rgba(0,0,0,0.7);
+    padding:40px;
+}
+
+h1{
+    font-size:50px;
+}
+
+.historia{
+    background:rgba(0,0,0,0.7);
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.plagas{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.plaga{
+    background:rgba(0,0,0,0.7);
+    margin:15px;
+    padding:20px;
+    width:220px;
+    border-radius:10px;
+}
+
+.plaga img{
+    width:100%;
+    border-radius:8px;
+}
+
+.botones{
+    margin:20px;
+}
+
+button{
+    padding:12px 25px;
+    margin:10px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#c62828;
+    color:white;
+}
+
+button:hover{
+    background:#8e0000;
+}
+
+section{
+    background:rgba(0,0,0,0.8);
+    padding:40px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Las 4 Plagas de Oruro</h1>
+<img src="kimberly.jpg" width="300">
+</header>
+
+<div class="historia">
+<h2>Historia</h2>
+<p>
+Según la leyenda del Carnaval de Oruro, el dios Wari envió cuatro criaturas
+gigantes para destruir la ciudad: una serpiente, un sapo, un lagarto y
+hormigas. Sin embargo, la Virgen del Socavón protegió a los habitantes y
+convirtió a estas criaturas en piedra. Hoy estas figuras forman parte
+importante de la historia y cultura de Oruro.
+</p>
+</div>
+
+<div class="plagas">
+
+<div class="plaga">
+<h3>Serpiente</h3>
+<img src="yamileth.jpg">
+<p>Representa una de las criaturas enviadas por el dios Wari para atacar la ciudad.</p>
+</div>
+
+<div class="plaga">
+<h3>Sapo</h3>
+<img src="sapito.jpg">
+<p>El sapo gigante es parte de la leyenda y hoy existe una roca con su forma.</p>
+</div>
+
+<div class="plaga">
+<h3>Hormigas</h3>
+<img src="hormiga.jpg">
+<p>Las hormigas simbolizan una plaga enviada para destruir los cultivos.</p>
+</div>
+
+<div class="plaga">
+<h3>Lagarto</h3>
+<img src="lagarto.jpg">
+<p>El lagarto también fue derrotado y convertido en piedra según la leyenda.</p>
+</div>
+
+</div>
+
+<div class="botones">
+<a href="#mapa"><button>Ver Mapa</button></a>
+<a href="#video"><button>Ver Video</button></a>
+</div>
+
+<section id="mapa">
+<h2>Mapa de Oruro</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Oruro,Bolivia&output=embed"
+width="80%"
+height="400"
+style="border:0;">
+</iframe>
+
+</section>
+
+<section id="video">
+<h2>Video sobre la Leyenda</h2>
+
+<iframe width="80%" height="400"
+src="las 4 yamileth.mp4"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</section>
+
+</body>
+</html>
